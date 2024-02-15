@@ -1,0 +1,129 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-button{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #0C2D57;
+    background-color: #FC6736;
+}
+
+.go-back{
+    margin: 10px;
+}
+
+h1{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #0C2D57;
+}
+
+.book-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 5px solid #0C2D57;
+    width: 1080px;
+    height: auto;
+    position: relative;
+}
+
+#tsh-dim{
+    width: 100px;
+}
+
+img{
+    border: 5px solid #0C2D57;
+    margin: 50px 10px;
+}
+
+.img-tsh{
+    height: 320px;
+    margin: 93px 10px;
+
+}
+
+.img-otsos{
+    height: 320px;
+    margin: 93px 10px;
+}
+
+.description-text{
+    border: 5px solid #0C2D57;
+    width:800px; /* Specify width, smaller than the outer box */
+    height: 400px; /* Specify height, smaller than the outer box */
+    position: absolute; /* Positioned absolutely relative to its nearest positioned ancestor (the outer box) */
+    top: 50px; /* Distance from the top of the outer box */
+    left: 260px; /* Distance from the left of the outer box */
+    background-color: #FC6736; /* Just for visual differentiation */
+    color: white;
+}
+
+.details{
+    margin-left: 10px;
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* Or any desired height */
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#htst-p{
+    font-size: 1.4rem;
+}
+
+#tctbd-p{
+    font-size: 1.4rem;
+}
+
+#t4a-p{
+    font-size: 1.4rem;
+}
+
+#tsh-p{
+    font-size: 1.4rem;
+}
+
+#otsos-p{
+    font-size: 1.4rem;
+}
+
+.notes-section{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    color: #0C2D57;
+}
+
+.notes-sub-section{
+    width: 1080px;
+    height: auto;
+    border: 5px solid #0C2D57;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #0C2D57;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #0C2D57;
+    font-family: "Jost", sans-serif;
+}
